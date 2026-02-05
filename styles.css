@@ -41,7 +41,7 @@ nav a{
 
 nav a:hover{filter:brightness(0.98)}
 
-a{color:inherit}
+a{color:#0000EE;}
 a:hover{text-decoration:underline}
 
 .box{
