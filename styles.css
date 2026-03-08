@@ -27,19 +27,22 @@ nav{
   display:flex;
   flex-wrap:wrap;
   gap:10px;
-  margin: 14px 0 22px;
+  margin:14px 0 22px;
 }
 
 nav a{
   text-decoration:none;
-  padding: 8px 10px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: var(--text);
-  background: var(--soft);
+  padding:8px 12px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  color:#111;
+  background:var(--soft);
+  font-size:0.95rem;
 }
 
-nav a:hover{filter:brightness(0.98)}
+nav a:hover{
+  text-decoration:none;
+}
 
 a{color:#0000EE;}
 a:hover{text-decoration:underline}
